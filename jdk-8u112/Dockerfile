@@ -1,5 +1,5 @@
 FROM nibo/centos:7.3.1611
-MAINTAINER Bo Ni <nibocn@gmail.com>
+MAINTAINER Richard <nibocn@gmail.com>
 
 RUN cd /tmp \
     && mkdir -p /opt/java \
