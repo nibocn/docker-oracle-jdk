@@ -7,7 +7,9 @@ RUN cd /tmp \
     && tar xf jdk-8u112-linux-x64.tar.gz -C /opt/java \
     && rm -rf jdk-8u112-linux-x64.tar.gz \
     && ln -s /opt/java/jdk* /opt/java/jdk \
-    && ln -s /opt/java/jdk /opt/java/jvm
+    && ln -s /opt/java/jdk /opt/java/jvm \
+    && ln -s /opt/java/jdk/bin/java /usr/local/bin \
+    && ln -s /opt/java/jdk/bin/javac /usr/local/bin
 
 ENV JAVA_HOME /opt/java/jdk
 ENV PATH $JAVA_HOME/bin:$PATH
