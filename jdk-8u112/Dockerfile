@@ -5,7 +5,7 @@ ENV TZ=Asia/Shanghai
 
 RUN cd /tmp \
     && mkdir -p /opt/java \
-    && curl -L -O -H "Cookie: oraclelicense=accept-securebackup-cookie" -k "http://download.oracle.com/otn/java/jdk/8u112-b15/jdk-8u112-linux-x64.tar.gz" \
+    && curl -o jdk-8u112-linux-x64.tar.gz -L -O -H "Cookie: oraclelicense=accept-securebackup-cookie" -k "http://ftp.wsisiz.edu.pl/pub/pc/pozyteczne%20oprogramowanie/java/8u112/jdk-8u112-linux-x64.tar.gz" \
     && tar xf jdk-8u112-linux-x64.tar.gz -C /opt/java \
     && rm -rf jdk-8u112-linux-x64.tar.gz \
     && ln -s /opt/java/jdk* /opt/java/jdk \
