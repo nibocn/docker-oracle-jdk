@@ -17,7 +17,7 @@ RUN cd /tmp \
     /opt/java/jdk/*src.zip \
     /opt/java/jdk/lib/missioncontrol \
     /opt/java/jdk/lib/visualvm \
-#    /opt/java/jdk/lib/*javafx* \
+    /opt/java/jdk/lib/*javafx* \
     /opt/java/jdk/jre/plugin \
     /opt/java/jdk/jre/bin/javaws \
     /opt/java/jdk/jre/bin/jjs \
@@ -32,14 +32,14 @@ RUN cd /tmp \
     /opt/java/jdk/jre/lib/javaws.jar \
     /opt/java/jdk/jre/lib/deploy* \
     /opt/java/jdk/jre/lib/desktop \
-#    /opt/java/jdk/jre/lib/*javafx* \
+    /opt/java/jdk/jre/lib/*javafx* \
     /opt/java/jdk/jre/lib/*jfx* \
     /opt/java/jdk/jre/lib/amd64/libdecora_sse.so \
     /opt/java/jdk/jre/lib/amd64/libprism_*.so \
     /opt/java/jdk/jre/lib/amd64/libfxplugins.so \
     /opt/java/jdk/jre/lib/amd64/libglass.so \
     /opt/java/jdk/jre/lib/amd64/libgstreamer-lite.so \
-#    /opt/java/jdk/jre/lib/amd64/libjavafx*.so \
+    /opt/java/jdk/jre/lib/amd64/libjavafx*.so \
     /opt/java/jdk/jre/lib/amd64/libjfx*.so \
     /opt/java/jdk/jre/lib/ext/jfxrt.jar \
     /opt/java/jdk/jre/lib/ext/nashorn.jar \
