@@ -1,7 +1,8 @@
 FROM centos:7.5.1804
 MAINTAINER Richard <nibocn@gmail.com>
 
-ENV TZ=Asia/Shanghai
+ENV LANG=en_US.UTF-8 \
+    LC_ALL=en_US.UTF-8
 
 RUN cd /tmp \
     && mkdir -p /opt/java \

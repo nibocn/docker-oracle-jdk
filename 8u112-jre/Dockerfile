@@ -1,6 +1,10 @@
 FROM centos:7.5.1804
 MAINTAINER Richard <nibocn@gmail.com>
 
+ENV LANG=en_US.UTF-8 \
+    LC_ALL=en_US.UTF-8
+
+
 RUN cd /tmp \
     && mkdir -p /opt/java \
     && curl -o jre-8u112-linux-x64.tar.gz -L -O -H "Cookie: oraclelicense=accept-securebackup-cookie" -k "http://ftp.wsisiz.edu.pl/pub/pc/pozyteczne%20oprogramowanie/java/8u112/jre-8u112-linux-x64.tar.gz" \
